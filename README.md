@@ -2,6 +2,10 @@
 
 BAWP is a WordPress plugin that provides information about your installed plugins and WordPress version in JSON format via a REST API.
 
+## Support
+
+[<img src="https://user-images.githubusercontent.com/1286821/181085373-12eee197-187a-4438-90fe-571ac6d68900.png" alt="Buy me a coffee" width="200" />](https://www.buymeacoffee.com/coderb)
+
 ## Features
 
 - Provides the WordPress version and update status.
