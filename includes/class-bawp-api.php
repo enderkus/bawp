@@ -36,7 +36,8 @@ class BAWP_API {
                 'name' => $plugin_data['Name'],
                 'version' => $plugin_data['Version'],
 				'author' => $plugin_data['Author'],
-                'update_available' => isset($plugin_updates[$plugin_file])
+                'update_available' => isset($plugin_updates[$plugin_file]),
+                'active' => is_plugin_active($plugin_file)
             );
         }
 

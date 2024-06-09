@@ -50,7 +50,7 @@ class BAWP_Admin {
 
     public function api_key_render() {
         $api_key = get_option('bawp_api_key');
-        echo "<input type='text' name='bawp_api_key' value='$api_key' readonly />";
+        echo "<input type='text' name='bawp_api_key' value='$api_key' />";
         echo "<p>" . __('To generate a new API key, delete the current one and save the settings.', 'bawp') . "</p>";
     }
 
