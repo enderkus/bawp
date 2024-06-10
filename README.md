@@ -53,7 +53,8 @@ GET https://yourdomain.com/wp-json/bawp/v1/info?api_key=YOUR_API_KEY
             "name": "Hello Dolly",
             "version": "1.7.2",
             "author": "Matt Mullenweg",
-            "update_available": false
+            "update_available": false,
+            "acitve": true
         }
     ]
 }
